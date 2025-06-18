@@ -1,0 +1,38 @@
+body {
+  background-color: lightgreen;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#noteContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.note {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  resize: vertical;
+  overflow: auto;
+}
+
+#addNoteBtn {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background-color: #2ecc71;
+  color: white;
+}
